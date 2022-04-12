@@ -26,11 +26,3 @@ export {
 } from './queue';
 export * as TokenInstructions from './token-instructions';
 export * from './error';
-export { MarketProxy, MarketProxyBuilder } from './market-proxy';
-export {
-  OpenOrdersPda,
-  ReferralFees,
-  PermissionedCrank,
-  Logger,
-  Middleware,
-} from './market-proxy/middleware';
