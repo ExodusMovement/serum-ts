@@ -5,10 +5,10 @@
     "allowJs": true,
     "checkJs": true,
     "declaration": true,
-    "declarationMap": true,
+    "declarationMap": false,
     "noImplicitAny": false,
     "resolveJsonModule": true,
-    "sourceMap": true
+    "sourceMap": false
   },
   "include": ["./src/**/*"],
   "exclude": ["./src/**/*.test.js", "node_modules", "**/node_modules"]
